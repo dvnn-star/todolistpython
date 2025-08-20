@@ -1,6 +1,8 @@
 import tkinter 
 from tkinter import *
 from tkinter import ttk
+
+
 task = ["haklaskoa","NASI","PADANG"]
 def show_task():
     if not task:
@@ -92,6 +94,8 @@ ttk.Button(frame4,text="UPDATE",command=lambda:update_button()).grid(row=4,colum
 
 
 
+logo = PhotoImage(file="logo.png")
+root.iconphoto(True, logo)
 
 frames=[mainframe,Frame2,frame3,frame4]
 for child in frames:
