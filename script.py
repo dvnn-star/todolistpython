@@ -94,7 +94,7 @@ ttk.Button(frame4,text="UPDATE",command=lambda:update_button()).grid(row=4,colum
 
 
 
-logo = PhotoImage(file="logo.png")
+logo = PhotoImage(file="/home/delvin/Documents/Matrix/logo.png")
 root.iconphoto(True, logo)
 
 frames=[mainframe,Frame2,frame3,frame4]
